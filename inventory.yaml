@@ -1,0 +1,62 @@
+# note: this document is read primarily by machines.
+# humans should visit <TODO: URL> for a pretty-printed version.
+
+rooms:
+ - name: W20 Machine Room
+   location: W20-575A
+
+racks:
+ - name: ALDERAAN
+   room: W20-575A
+   location: mid-north
+   desc: Old LAMP rack, beige
+   first-contact: cela
+
+ - name: ALTERNIA
+   room: W20-575A
+   location: northern of trio
+   desc: General use rack, beige
+   first-contact: cela
+
+ - name: GALLIFREY
+   room: W20-575A
+   location: southern of trio
+   desc: General use rack, beige
+   first-contact: cela
+
+ - name: KRONOS
+   room: W20-575A
+   location: south-east corner
+   desc: Unused replacement rack
+   comment: also named Qo'noS
+   first-contact: cela
+
+ - name: PANDORA
+   room: W20-575A
+   location: middle of trio
+   desc: General use rack, black
+   first-contact: cela
+
+equipment:
+ - name: EELOO
+   type: air handler
+   desc: old air handling unit
+   room: W20-575A
+   location: western wall
+   first-contact: cela
+
+ - name: HOTH
+   type: air handler
+   desc: old air handling unit
+   room: W20-575A
+   location: eastern wall
+   first-contact: cela
+
+ - name: SUPPLY SHELF
+   type: shelf
+   desc: very old server rack, currently used as a shelf
+   room: W20-575A
+   location: northern wall
+   first-contact: cela
+   comment: contains cables, spare parts, mounting equipment, and manuals
+
